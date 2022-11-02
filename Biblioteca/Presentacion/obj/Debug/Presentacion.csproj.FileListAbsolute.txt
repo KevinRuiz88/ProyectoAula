@@ -30,3 +30,6 @@ C:\Users\HP\ProyectoBiblioteca\ProyectoAula\Biblioteca\Presentacion\obj\Debug\Pr
 C:\Users\HP\ProyectoBiblioteca\ProyectoAula\Biblioteca\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\HP\ProyectoBiblioteca\ProyectoAula\Biblioteca\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\HP\ProyectoBiblioteca\ProyectoAula\Biblioteca\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\HP\ProyectoBiblioteca\ProyectoAula\Biblioteca\Presentacion\obj\Debug\Presentacion.Consultar.resources
+C:\Users\HP\ProyectoBiblioteca\ProyectoAula\Biblioteca\Presentacion\obj\Debug\Presentacion.RegistroAudio.resources
+C:\Users\HP\ProyectoBiblioteca\ProyectoAula\Biblioteca\Presentacion\obj\Debug\Presentacion.RegistroLibro.resources

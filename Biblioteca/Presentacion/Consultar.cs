@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class RegistroAudio : Form
+    public partial class Consultar : Form
     {
-        public RegistroAudio()
+        public Consultar()
         {
             InitializeComponent();
         }

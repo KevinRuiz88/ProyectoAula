@@ -1,4 +1,6 @@
-﻿namespace Presentacion
+﻿using System;
+
+namespace Presentacion
 {
     partial class Form1
     {
@@ -90,6 +92,7 @@
             this.btnRegistraraudi.TabIndex = 4;
             this.btnRegistraraudi.Text = "REGISTRAR AUDIO LIBRO";
             this.btnRegistraraudi.UseVisualStyleBackColor = false;
+            this.btnRegistraraudi.Click += new System.EventHandler(this.btnRegistraraudi_Click);
             // 
             // label4
             // 
@@ -111,6 +114,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "SALIR";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // btnConsultar
             // 
@@ -122,6 +126,7 @@
             this.btnConsultar.TabIndex = 1;
             this.btnConsultar.Text = "CONSULTAR";
             this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnRegistrarlb
             // 
@@ -133,6 +138,7 @@
             this.btnRegistrarlb.TabIndex = 0;
             this.btnRegistrarlb.Text = "REGISTRAR LIBRO";
             this.btnRegistrarlb.UseVisualStyleBackColor = false;
+            this.btnRegistrarlb.Click += new System.EventHandler(this.btnRegistrarlb_Click);
             // 
             // Form1
             // 
@@ -163,5 +169,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.Button btnRegistrarlb;
+        private EventHandler button3_Click;
     }
 }
