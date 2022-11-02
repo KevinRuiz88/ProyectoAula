@@ -3,16 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Logica;
-using Entidades;
+using System.Windows.Forms;
+
 
 namespace Presentacion
 {
     public class main
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Punto de entrada principal para la aplicación.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+            /*
            ImpLibros logica = new ImpLibros();
             String continuar="";
             int opcion = 0;
@@ -42,7 +49,7 @@ namespace Presentacion
 
 
             }while (continuar.Equals("s"));
-
+            */
         }
     }
 }
